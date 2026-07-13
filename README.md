@@ -134,5 +134,5 @@ streamlit run app.py
 
 **Sohom Halder**
 MSc Statistics, IIT Kanpur
-[LinkedIn] · [GitHub] · [Email]
+[LinkedIn](https://www.linkedin.com/in/sohom-halder-6200a8406/) · [GitHub](https://github.com/sohom21-bit) · [haldersohom21@gmail.com]
 
