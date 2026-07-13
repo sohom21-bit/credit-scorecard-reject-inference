@@ -117,7 +117,7 @@ streamlit run app.py
 - **All four models are stable over time.** Every PSI value falls well inside the conventional < 0.10 "stable" band (range: 0.0038–0.0234), meaning none of the scored populations have drifted materially between the 2007–2015 training window and the 2016 test window.
 - **Default rate rises monotonically with predicted score**, and the WoE transformation retains the full 1,345,310-row population with zero rows dropped to nulls — a deliberate `np.digitize`-based bin lookup replaces the more fragile pandas-`Interval` matching used in an earlier version of this pipeline.
 - **The Streamlit app scores identically to the notebook.** The single-applicant form reapplies the exact same WoE bin edges and lookup logic used in training, including a specific fix ensuring the `term` feature is matched as a string in the same format (`"36.0"` / `"60.0"`) the WoE table was built with.
-![Visualisation Dashboard](./eda_class_distributions.png)
+![Visualisation Dashboard](images/dashboard.png)
 
 ## Limitations
 
